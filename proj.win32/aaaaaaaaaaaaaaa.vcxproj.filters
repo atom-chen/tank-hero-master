@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\AchieveCocosBuilder">
+      <UniqueIdentifier>{c6e5de9d-d925-468c-88f5-f7899e29b428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\AStar">
+      <UniqueIdentifier>{6207c924-b412-4416-8993-1fe4431814d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CCShake">
+      <UniqueIdentifier>{f4d5d7e3-e58c-4c4c-ab17-8d1a6cdee5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DrawDebug">
+      <UniqueIdentifier>{4f73596f-0922-4d58-ae1e-4e5fb823028d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\EditBoxLayer">
+      <UniqueIdentifier>{8ac80c03-55a2-4737-a187-061397267977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GB2ShapeCache">
+      <UniqueIdentifier>{f7ea3eed-b48b-4d10-8a90-4ccb59857dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\MenuCocosBuilder">
+      <UniqueIdentifier>{d1b6a25e-72fe-4f31-b0fb-9c3ba4793f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\option">
+      <UniqueIdentifier>{23d69da0-18a3-4456-b7aa-be46d51b415e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ShopCocosBuilder">
+      <UniqueIdentifier>{9821a920-0696-4eb1-ae71-220042a8f6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SimpleTimer">
+      <UniqueIdentifier>{ca431424-ab6d-469c-8873-a08ed1b48114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SkillButton">
+      <UniqueIdentifier>{9871fe8a-a9c8-42e2-ade0-b849a1d8b2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\sqlite3">
+      <UniqueIdentifier>{f9a096a7-ab14-4245-9de8-002cf58b4ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\teach">
+      <UniqueIdentifier>{8c260a48-4646-4307-a2b8-e5bb9ad57140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UserRecord">
+      <UniqueIdentifier>{a4418a10-cf69-4742-a228-bc34f4601338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xml">
+      <UniqueIdentifier>{f2f95161-f897-420a-9763-a6c39862807b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AboutLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Box.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\enemyBullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\enemyTank.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GCLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\landMine.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Props.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tanker.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UserDataConsistencyCCSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AchieveCocosBuilder\AchieveCocosBuilder.cpp">
+      <Filter>Classes\AchieveCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AchieveCocosBuilder\CustomTableViewCell.cpp">
+      <Filter>Classes\AchieveCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\Astar.cpp">
+      <Filter>Classes\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\Astaritem.cpp">
+      <Filter>Classes\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCShake\CCShake.cpp">
+      <Filter>Classes\CCShake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DrawDebug\GLES-Render.cpp">
+      <Filter>Classes\DrawDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EditBoxLayer\EditBoxLayer.cpp">
+      <Filter>Classes\EditBoxLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GB2ShapeCache\GB2ShapeCache-x.cpp">
+      <Filter>Classes\GB2ShapeCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuCocosBuilder\MapSelectCocosBuilderLayer.cpp">
+      <Filter>Classes\MenuCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuCocosBuilder\MenuCocosBuilderLayer.cpp">
+      <Filter>Classes\MenuCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xml\XmlParser.cpp">
+      <Filter>Classes\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UserRecord\UserRecord.cpp">
+      <Filter>Classes\UserRecord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\teach\shopTeach_1.cpp">
+      <Filter>Classes\teach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\teach\shopTeach_2.cpp">
+      <Filter>Classes\teach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sqlite3\shell.c">
+      <Filter>Classes\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sqlite3\sqlite3.c">
+      <Filter>Classes\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillButton\ImmediateButton.cpp">
+      <Filter>Classes\SkillButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillButton\SkillButton.cpp">
+      <Filter>Classes\SkillButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SimpleTimer\SimpleTimer.cpp">
+      <Filter>Classes\SimpleTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopCocosBuilder\BoxCocosBuilderLayer.cpp">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopCocosBuilder\cashShopCocosBuilderLayer.cpp">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopCocosBuilder\magazine_frameCocosBuilderLayer.cpp">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopCocosBuilder\ShopCocosBuilderLayer.cpp">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\option\option.cpp">
+      <Filter>Classes\option</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Box.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\enemyBullet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\enemyTank.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GCLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\landMine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Props.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tanker.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UserDataConsistencyCCSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AchieveCocosBuilder\AchieveCocosBuilder.h">
+      <Filter>Classes\AchieveCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AchieveCocosBuilder\AchieveCocosBuilderLoader.h">
+      <Filter>Classes\AchieveCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AchieveCocosBuilder\CustomTableViewCell.h">
+      <Filter>Classes\AchieveCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\Astar.h">
+      <Filter>Classes\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\Astaritem.h">
+      <Filter>Classes\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCShake\CCShake.h">
+      <Filter>Classes\CCShake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DrawDebug\GLES-Render.h">
+      <Filter>Classes\DrawDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EditBoxLayer\EditBoxLayer.h">
+      <Filter>Classes\EditBoxLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EditBoxLayer\EditBoxLayerLoader.h">
+      <Filter>Classes\EditBoxLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GB2ShapeCache\GB2ShapeCache-x.h">
+      <Filter>Classes\GB2ShapeCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuCocosBuilder\MapSelectCocosBuilderLayer.h">
+      <Filter>Classes\MenuCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuCocosBuilder\MapSelectCocosBuilderLoader.h">
+      <Filter>Classes\MenuCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuCocosBuilder\MenuCocosBuilderLayer.h">
+      <Filter>Classes\MenuCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuCocosBuilder\MenuCocosBuilderLayerLoader.h">
+      <Filter>Classes\MenuCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xml\XmlParser.h">
+      <Filter>Classes\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UserRecord\UserRecord.h">
+      <Filter>Classes\UserRecord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\teach\shopTeach_1.h">
+      <Filter>Classes\teach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\teach\shopTeach_1Loader.h">
+      <Filter>Classes\teach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\teach\shopTeach_2.h">
+      <Filter>Classes\teach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\teach\shopTeach_2Loader.h">
+      <Filter>Classes\teach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sqlite3\sqlite3.h">
+      <Filter>Classes\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sqlite3\sqlite3ext.h">
+      <Filter>Classes\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillButton\ImmediateButton.h">
+      <Filter>Classes\SkillButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillButton\SkillButton.h">
+      <Filter>Classes\SkillButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SimpleTimer\SimpleTimer.h">
+      <Filter>Classes\SimpleTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\BoxCocosBuilderLayer.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\BoxCocosBuilderLayerLoader.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\cashShopCocosBuilderLayer.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\cashShopCocosBuilderLayerLoader.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\magazine_frameCocosBuilderLayer.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\magazine_frameCocosBuilderLayerLoader.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\ShopCocosBuilderLayer.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopCocosBuilder\ShopCocosBuilderLayerLoader.h">
+      <Filter>Classes\ShopCocosBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\option\option.h">
+      <Filter>Classes\option</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\option\optionLoader.h">
+      <Filter>Classes\option</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

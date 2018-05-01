@@ -1,0 +1,216 @@
+﻿生成启动时间为 2015/7/28 23:18:30。
+     1>项目“E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\aaaaaaaaaaaaaaa.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\include" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\platform\win32" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\external" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\CocosDenshion\include" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AboutLayer.cpp ..\Classes\AchieveCocosBuilder\AchieveCocosBuilder.cpp ..\Classes\AchieveCocosBuilder\CustomTableViewCell.cpp ..\Classes\AppDelegate.cpp ..\Classes\AStar\Astar.cpp ..\Classes\AStar\Astaritem.cpp ..\Classes\Box.cpp ..\Classes\Bullet.cpp ..\Classes\CCShake\CCShake.cpp "..\Classes\DrawDebug\GLES-Render.cpp" ..\Classes\EditBoxLayer\EditBoxLayer.cpp ..\Classes\enemyBullet.cpp ..\Classes\enemyTank.cpp ..\Classes\GameScene.cpp "..\Classes\GB2ShapeCache\GB2ShapeCache-x.cpp" ..\Classes\GCLayer.cpp ..\Classes\HelpLayer.cpp ..\Classes\landMine.cpp ..\Classes\MenuCocosBuilder\MapSelectCocosBuilderLayer.cpp ..\Classes\MenuCocosBuilder\MenuCocosBuilderLayer.cpp ..\Classes\MenuLayer.cpp ..\Classes\option\option.cpp ..\Classes\PauseLayer.cpp ..\Classes\Props.cpp ..\Classes\ShopCocosBuilder\BoxCocosBuilderLayer.cpp ..\Classes\ShopCocosBuilder\cashShopCocosBuilderLayer.cpp ..\Classes\ShopCocosBuilder\magazine_frameCocosBuilderLayer.cpp ..\Classes\ShopCocosBuilder\ShopCocosBuilderLayer.cpp ..\Classes\SimpleTimer\SimpleTimer.cpp ..\Classes\SkillButton\ImmediateButton.cpp ..\Classes\SkillButton\SkillButton.cpp ..\Classes\tanker.cpp ..\Classes\teach\shopTeach_1.cpp ..\Classes\teach\shopTeach_2.cpp ..\Classes\Tool.cpp ..\Classes\UserDataConsistencyCCSprite.cpp ..\Classes\UserRecord\UserRecord.cpp ..\Classes\xml\XmlParser.cpp main.cpp
+         AboutLayer.cpp
+         AchieveCocosBuilder.cpp
+         CustomTableViewCell.cpp
+         AppDelegate.cpp
+         Astar.cpp
+         Astaritem.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\astar\astar.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Box.cpp
+         Bullet.cpp
+         CCShake.cpp
+         GLES-Render.cpp
+         EditBoxLayer.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\bullet.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+         enemyBullet.cpp
+         enemyTank.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\editboxlayer\editboxlayer.cpp(292): warning C4305: “参数”: 从“int”到“bool”截断
+         GameScene.cpp
+         GB2ShapeCache-x.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemybullet.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(204): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(392): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(395): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(532): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\enemytank.cpp(537): warning C4018: “<”: 有符号/无符号不匹配
+         GCLayer.cpp
+         HelpLayer.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gb2shapecache\gb2shapecache-x.cpp(174): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(697): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(715): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1104): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1195): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1197): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1200): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1399): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1401): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1404): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1426): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1428): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1431): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1500): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1502): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1505): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1527): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1529): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1532): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1766): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1775): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1777): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1780): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(1976): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(2175): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(4017): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(4671): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(4710): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(4791): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(4873): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5083): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5225): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5278): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5459): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5527): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5533): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5535): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5564): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(5697): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(6817): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(7063): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(7187): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(7664): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(8521): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(8605): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(8646): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(8655): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(8702): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(9114): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gamescene.cpp(9300): warning C4305: “参数”: 从“int”到“bool”截断
+         landMine.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gclayer.cpp(262): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gclayer.cpp(263): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gclayer.cpp(109): warning C4101: “lable”: 未引用的局部变量
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gclayer.cpp(281): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\gclayer.cpp(282): warning C4305: “参数”: 从“int”到“bool”截断
+         MapSelectCocosBuilderLayer.cpp
+         MenuCocosBuilderLayer.cpp
+         MenuLayer.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\landmine.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(154): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(300): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(331): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(370): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(388): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(626): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(676): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(715): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\mapselectcocosbuilderlayer.cpp(758): warning C4018: “<”: 有符号/无符号不匹配
+         option.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menulayer.cpp(188): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\menucocosbuilderlayer.cpp(430): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\menucocosbuilderlayer.cpp(476): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\menucocosbuilderlayer.cpp(554): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\menucocosbuilder\menucocosbuilderlayer.cpp(611): warning C4018: “<”: 有符号/无符号不匹配
+         PauseLayer.cpp
+         Props.cpp
+         BoxCocosBuilderLayer.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\boxcocosbuilderlayer.cpp(204): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\boxcocosbuilderlayer.cpp(559): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\boxcocosbuilderlayer.cpp(644): warning C4305: “参数”: 从“int”到“bool”截断
+         cashShopCocosBuilderLayer.cpp
+         magazine_frameCocosBuilderLayer.cpp
+         ShopCocosBuilderLayer.cpp
+         SimpleTimer.cpp
+         ImmediateButton.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\magazine_framecocosbuilderlayer.cpp(569): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\magazine_framecocosbuilderlayer.cpp(984): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\cashshopcocosbuilderlayer.cpp(753): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\cashshopcocosbuilderlayer.cpp(828): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\cashshopcocosbuilderlayer.cpp(1176): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(244): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(460): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(470): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(545): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(669): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(709): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(865): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(897): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(1007): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(1039): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(1161): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\shopcocosbuilder\shopcocosbuilderlayer.cpp(1188): warning C4018: “<”: 有符号/无符号不匹配
+         SkillButton.cpp
+         tanker.cpp
+         shopTeach_1.cpp
+         shopTeach_2.cpp
+         Tool.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\tanker.cpp(396): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\tanker.cpp(400): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\tanker.cpp(460): warning C4101: “pszFileName”: 未引用的局部变量
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\teach\shopteach_1.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+         UserDataConsistencyCCSprite.cpp
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\teach\shopteach_2.cpp(60): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\teach\shopteach_2.cpp(149): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\teach\shopteach_2.cpp(157): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\teach\shopteach_2.cpp(164): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\9\cocostudiosamples\cocos2d-x\projects\tanke\classes\teach\shopteach_2.cpp(206): warning C4305: “参数”: 从“double”到“float”截断
+         UserRecord.cpp
+         XmlParser.cpp
+         main.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\include" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\platform\win32" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\external" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\CocosDenshion\include" /I"E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TC /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\sqlite3\shell.c ..\Classes\sqlite3\sqlite3.c
+         shell.c
+         sqlite3.c
+       PreLinkEvent:
+         if not exist "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\" mkdir "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\"
+         xcopy /Y /Q "E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\xm_tanke.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\xm_tanke.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\xm_tanke.lib" /MACHINE:X86 /SAFESEH Debug.win32\AboutLayer.obj
+         Debug.win32\AchieveCocosBuilder.obj
+         Debug.win32\CustomTableViewCell.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Astar.obj
+         Debug.win32\Astaritem.obj
+         Debug.win32\Box.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\CCShake.obj
+         "Debug.win32\GLES-Render.obj"
+         Debug.win32\EditBoxLayer.obj
+         Debug.win32\enemyBullet.obj
+         Debug.win32\enemyTank.obj
+         Debug.win32\GameScene.obj
+         "Debug.win32\GB2ShapeCache-x.obj"
+         Debug.win32\GCLayer.obj
+         Debug.win32\HelpLayer.obj
+         Debug.win32\landMine.obj
+         Debug.win32\MapSelectCocosBuilderLayer.obj
+         Debug.win32\MenuCocosBuilderLayer.obj
+         Debug.win32\MenuLayer.obj
+         Debug.win32\option.obj
+         Debug.win32\PauseLayer.obj
+         Debug.win32\Props.obj
+         Debug.win32\BoxCocosBuilderLayer.obj
+         Debug.win32\cashShopCocosBuilderLayer.obj
+         Debug.win32\magazine_frameCocosBuilderLayer.obj
+         Debug.win32\ShopCocosBuilderLayer.obj
+         Debug.win32\SimpleTimer.obj
+         Debug.win32\ImmediateButton.obj
+         Debug.win32\SkillButton.obj
+         Debug.win32\shell.obj
+         Debug.win32\sqlite3.obj
+         Debug.win32\tanker.obj
+         Debug.win32\shopTeach_1.obj
+         Debug.win32\shopTeach_2.obj
+         Debug.win32\Tool.obj
+         Debug.win32\UserDataConsistencyCCSprite.obj
+         Debug.win32\UserRecord.obj
+         Debug.win32\XmlParser.obj
+         Debug.win32\main.obj
+         "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\libcocos2d.lib"
+         "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\libCocosDenshion.lib"
+         "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\libExtensions.lib"
+         "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\libBox2D.lib"
+         "E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\libchipmunk.lib"
+     1>AboutLayer.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         aaaaaaaaaaaaaaa.vcxproj -> E:\9\CocoStudioSamples\cocos2d-x\Debug.win32\xm_tanke.exe
+     1>已完成生成项目“E:\9\CocoStudioSamples\cocos2d-x\projects\tanke\proj.win32\aaaaaaaaaaaaaaa.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:03:29.22
